@@ -28,6 +28,7 @@ docker run -d --name flightmanagement-container -e MARIADB_ROOT_PASSWORD=passwor
 cd frontend
 npm start
 ```
+Uruchomiony frontend działa pod adresem localhost:3000
 
 - **Jeśli frontend nie działa to należy ponownie zainstalować moduły NodeJS**:
 ```
