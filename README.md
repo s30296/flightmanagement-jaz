@@ -23,6 +23,12 @@ docker pull mariadb
 docker run -d --name flightmanagement-container -e MARIADB_ROOT_PASSWORD=password -e MARIADB_DATABASE=flightmanagement -e MARIADB_USER=flightmanagement -e MARIADB_PASSWORD=password -p 3306:3306 mariadb
 ```
 
+- **Uruchomienie frontendu**:
+```
+cd frontend
+npm start
+```
+
 - **Ustawienie Headers dla Postmana**:
 ```
 Key = Content-Type
