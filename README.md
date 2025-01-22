@@ -28,6 +28,14 @@ docker run -d --name flightmanagement-container -e MARIADB_ROOT_PASSWORD=passwor
 cd frontend
 npm start
 ```
+Jeśli nie działa to należy ponownie zainstalować moduły NodeJS
+```
+cd frontend
+Remove-Item -Recurse -Force node_modules
+Remove-Item -Force package-lock.json
+npm install
+npm start
+```
 
 - **Ustawienie Headers dla Postmana**:
 ```
