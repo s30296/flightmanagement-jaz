@@ -1,7 +1,7 @@
 # JAZ-PROJEKT
 **JAZ Projekt - flightmanagement**
 
-*Katalog projektu po pobraniu z GitHub może mieć nieco inną nazwę np. flightmanagement-jaz, flightmanagement-jaz-main, flightmanagement-main, w takim przypadku trzeba zmienić nazwę na `flightmanagement`*
+*Projekt najlepiej się kompiluje z wykorzystaniem Java SE 17. Katalog projektu po pobraniu z GitHub może mieć nieco inną nazwę np. flightmanagement-jaz, flightmanagement-jaz-main, flightmanagement-main, w takim przypadku trzeba zmienić nazwę na `flightmanagement`*
 
 Założenie projektu polega na możliwości tworzenia lotów i automatycznego dostosowania jego zależności na podstawie aktualnej pogody, jak również czasu lotu. Pozwala również na więcej czynności w tym na operacje `CRUD` pasażerów lotów.
 
